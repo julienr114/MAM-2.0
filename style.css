@@ -1,0 +1,148 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	min-width: 1200px;
+}
+header {
+	background: rgb(101,197,170);
+	width: 1200px;
+	margin-top: 0px;
+	margin: 0 auto;
+	z-index: 1;
+	text-align: center;
+}
+nav {
+	
+}
+ul {
+      padding: 10px;
+      margin: 0 auto;
+}
+li {
+	display: inline-block;
+	padding: 0px 60px 0px 60px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+.menu {
+	text-decoration: none;
+	color: white;
+	font-size: 23px;
+}
+.menu:visited {
+	color: white;
+}
+.menu:hover {
+	color: rgb(247, 213, 55);
+}
+.top {
+	text-decoration: none;
+	color: rgb(253, 2, 91);
+	font-size: 23px;
+}
+.top:hover {
+	color: rgb(247, 213, 55);
+}
+section {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+div.inlinetop {
+	display: inline-block;
+	vertical-align: top;
+}
+div.inlinetop2 {
+	margin-right: 30px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+div.inlinebaseline {
+	display: inline-block;
+	vertical-align: baseline;
+}
+div.inlinebaseline2 {
+	margin-right: Opx;
+	display: inline-block;
+	vertical-align: baseline;
+}
+img {
+	vertical-align: top;
+}
+footer {
+	background: rgb(101,197,170);
+	width: 1200px;
+	margin: 0 auto;
+}
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 80px;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 0;
+	color: rgb(247, 213, 55);
+}
+h2 {
+	margin: 0px 20px 0px 0px;
+	padding: 10px 0 20px 0;
+	font-family: 'Parisienne', cursive;
+	font-size: 50px;
+}
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 37px;
+	margin: 0 0 10px 0;
+	display: inline-block;
+}
+h4 {
+	font-family: 'Parisienne', cursive;
+	font-size: 40px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+.chiffre {
+	font-family: arial;
+	color: rgb(253, 2, 91);
+	font-size: 50px;
+}
+.bouton-top{
+	width:40px;
+	height:40px;
+	position:absolute;
+	margin-left:90%;
+}
+
+#btn_up{
+	position:fixed;
+	cursor: pointer;
+	bottom:25%;
+	right:auto;
+	display:none
+}
+}
+div.picture {
+	max-width: 416px;
+    padding: 20px;
+    margin: 0 auto;
+    position: center;
+}
+p.footer1 {
+	font-weight: 100;
+	text-align: center;
+	color: white;
+	font-size: 23px;
+}
+.footer {
+	text-decoration: none;
+	color: white;
+	font-size: 23px;
+}
+.footer:visited {
+	color: white;
+}
+.footer:hover {
+	color: rgb(247, 213, 55);
+}
