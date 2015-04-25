@@ -2,17 +2,17 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	min-width: 1200px;
+	background-color: rgb(254,242,221);
+	margin: 0 auto;
 }
 header {
 	background: rgb(101,197,170);
-	width: 1200px;
-	margin-top: 0px;
-	margin: 0 auto;
+	margin: 0 0 14px 0;
 	z-index: 1;
 	text-align: center;
 }
 nav {
-	
+	background-color: rgba(0,0,0,.1);
 }
 ul {
       padding: 10px;
@@ -44,10 +44,18 @@ li {
 .top:hover {
 	color: rgb(247, 213, 55);
 }
-section {
+section.page {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 14px;
+	background: white;
+	box-shadow: 12px 12px 0px rgba(0,0,0,.2); 
+}
+section.page1 {
 	width: 900px;
 	margin: 0 auto;
-	margin-top: 40px;
+	padding-top: 30px;
+	background: white;
 }
 div.inlinetop {
 	display: inline-block;
@@ -55,7 +63,7 @@ div.inlinetop {
 }
 div.inlinetop2 {
 	margin-right: 30px;
-	display: inline-block;
+	display: inline-block;s
 	vertical-align: top;
 
 }
@@ -71,9 +79,15 @@ div.inlinebaseline2 {
 img {
 	vertical-align: top;
 }
+img.logo {
+	margin: 10px 5px 10px 5px;
+	image-source:;
+}
+img.logo:hover {
+
+}
 footer {
 	background: rgb(101,197,170);
-	width: 1200px;
 	margin: 0 auto;
 }
 h1 {
@@ -82,7 +96,7 @@ h1 {
 	font-size: 80px;
 	margin: 0 0 10px 0;
 	padding: 0 0 0 0;
-	color: rgb(247, 213, 55);
+	color: rgb(253, 2, 91);
 }
 h2 {
 	margin: 0px 20px 0px 0px;
